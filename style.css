@@ -1,97 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f2f5;
-}
-
-header {
-    background-color: #4267B2;
-    color: white;
-    padding: 20px;
     text-align: center;
+    padding: 50px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.profile {
-    display: flex;
-    align-items: flex-start;
-    margin: 20px;
-}
-
-.photo {
-    width: 150px;
-    height: 150px;
-    background-color: #e4e6eb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 100px;
-    font-weight: bold;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.details {
-    display: flex;
-    flex-direction: column;
-}
-
-.details h2 {
-    margin-top: 0;
-}
-
-.info p {
-    margin: 5px 0;
-}
-
-.students {
-    margin: 20px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: white;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #4267B2;
-    color: white;
-}
-
-footer {
-    background-color: #4267B2;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-.total-age {
-    margin: 20px;
-    font-size: 18px;
-    font-weight: bold;
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
